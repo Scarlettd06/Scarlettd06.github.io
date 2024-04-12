@@ -1,0 +1,103 @@
+@font-face{
+    font-family: 'CatchyMelody';
+    src: url(CatchyMelody.ttf);
+}
+
+body {
+    background-color: #e83c60;
+}
+
+div.tab {
+    font-size: 150px;
+    text-align: left;
+    font-family: 'CatchyMelody';
+    color: #e4af7a;
+}
+
+div.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.headline {
+    font-family: 'CatchyMelody';
+}
+
+div.headline.a{
+    font-size: 150px;
+}
+
+div.headline.b{
+    font-size: 250px;
+    
+}
+
+div.headline.c{
+   font-size: 100px;
+}
+
+div.headline.one{
+    background-color: #e83c60;
+}
+
+div.headline.two {
+    background-color: #1d3d96;
+}
+
+div.headline.three{
+    background-color: #ca1b55;
+}
+
+div.headline.x{
+    color:white
+}
+
+div.headline.y{
+    color:#A8D0DB
+}
+
+div.headline.z{
+    color:black
+}
+
+div.headline.random{
+    transition: 1s;
+}
+
+div.footer{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+div.footercol{
+    font-family: 'CatchyMelody';
+}
+
+div.footercol.x{
+    font-size: 50px;
+}
+
+div.footercol.y{
+    font-size: 100px;
+
+}
+
+div.footercol.z{
+    font-size: 150px;
+}
+
+div.footercol.a{
+    color:#e4af7a
+}
+
+div.footercol.b{
+    color:white
+}
+
+div.footercol.c{
+    color: #e4af7a;
+}
+
+div.footercol.random{
+    transition: 5s;
+}
