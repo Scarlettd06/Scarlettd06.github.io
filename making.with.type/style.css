@@ -14,6 +14,17 @@ div.tab {
     color: #e4af7a;
 }
 
+div.intro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.introcol {
+    width: 50%;
+    font-family: 'CatchyMelody';
+    font-size: 20px;
+}
+
 div.box {
     margin-left: auto;
     margin-right: auto;
@@ -83,9 +94,12 @@ div.headline.random{
     transition: 1s;
 }
 
-div.footer{
+div.footer {
     display: flex;
     flex-wrap: wrap-reverse;
+}
+div.footer {
+    width: 100%;
 }
 
 div.footercol{
