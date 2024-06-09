@@ -1,0 +1,220 @@
+@font-face {
+    font-family: Title;
+    src: url(Amari_Font_32-100-Regular.otf);
+}
+
+@font-face {
+    font-family: title2;
+    src: url(VolumeDealer.otf);
+}
+
+@font-face {
+    font-family: body;
+    src: url(geo_font/GeoFont/GeoFont-Regular.otf);
+}
+
+div.custom-cursor {
+    cursor: url(cur.cur.png);
+}
+
+/* setup project */
+
+body{
+    margin: 2%;
+    background-image:url('bg1.jpg');
+    background-size: 100%;
+    background-repeat: repeat;
+    background-attachment: scroll;   
+}
+
+div {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+/* typography */
+
+div.largetext {
+    font-size:190px;
+    line-height: 200px;
+    font-weight: bold;
+}
+
+div.mediumtext {
+    font-size: 33px;
+    line-height: 35px;
+}
+
+div.smalltext {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+div.smatext {
+    font-size: 12px;
+    line-height: 13px;
+}
+
+div.headline {
+    font-family: 'Title';
+}
+
+div.subheading {
+    font-family: 'title2';
+    font-weight: bold;
+}
+
+div.body {
+    font-family: 'body';
+}
+
+/* colors */
+
+div.green {
+    color:rgba(0, 254, 0, 1);
+}
+
+div.red {
+    color: red;
+}
+
+div.white {
+    color: white;
+}
+
+div.gradient-text {
+    background: linear-gradient(to white, rgba(0, 254, 0, 1));
+    background-clip: text;
+}
+/* layout */
+
+div.wid75 {
+    width: 75%;
+    padding: 5px;
+}
+
+div.wid50 {
+    width: 50%;
+    padding: 5px;
+}
+
+div.centertext {
+    text-align: center;
+}
+
+div.lefttext {
+    text-align: left;
+}
+
+div.righttext {
+    text-align: right;
+}
+
+div.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* design */
+
+div.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col1 {
+    margin-top: 30px;
+}
+
+div.col2 {
+    margin-top: 50px;
+}
+
+div.col3 {
+    margin-top: 10px;
+}
+
+div.col4 {
+    margin-top: 100px;
+}
+
+div.scroll-container {
+    overflow: hidden;
+    white-space: nowrap;
+    scrollbar-color: rgba(0, 42, 0, 1);
+    background-color: rgba(0, 42, 0, 0.1);
+}
+
+div.scroll-content {
+    display: inline-block;
+    animation: scroll 20s linear infinite;
+    width: 25%;
+    height: 40px;
+    padding: 10px;
+    background-color: rgba(0, 42, 0, 1);
+    margin-right: 10px;
+}
+
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+div.shadow1 {
+    text-shadow: 5px 5px 5px rgb(158, 135, 92) ;
+}
+
+div.shadow2 {
+    text-shadow: 5px 5px 5px brown;
+}
+div.bottom {
+    border-bottom: 1px solid red;
+}
+
+div.container {
+    display: flex;
+}
+
+div.item {
+    margin-top: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width:50%;
+    height:50vh;
+    overflow:scroll;
+    border-radius: 20px;
+  }
+
+  div.itemleft {
+    background-color: rgba(0, 42, 0, 1);
+  }
+  
+  div.itemcenter {
+    background-color: rgba(0, 42, 0, 1);
+  }
+  
+  div.itemright {
+    background-color: rgba(0, 42, 0, 1);
+  }
+
+div.footer {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid red;
+    margin-bottom: 8px;
+}
+
+
+

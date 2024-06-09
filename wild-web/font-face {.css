@@ -1,0 +1,335 @@
+font-face {
+    font-family:'Ouroboros';
+    src:url('Ouroboros-Regular.woff');}
+@font-face {
+    font-family:'subheading';
+    src:url('le-murmure.woff');}
+@font-face {
+    font-family:'body';
+    src:url('CirrusCumulus.woff');}
+/*reset project */
+body {
+    margin:0px;
+    background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    color: white;
+}
+div.bigcontainer {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+div.tablecontents {
+    position:fixed;
+    width: 100%;
+    height: 2.2vw;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+div.c1 {
+    border-right: 1px solid white;
+}
+div.cc1:hover {
+    background-color: violet;
+}
+div.c2 {
+    border-right: 1px solid white;
+}
+div.cc2:hover {
+    background-color: cyan;
+}
+div.c3 {
+    border-right: 1px solid white;
+}
+div.cc3:hover {
+    background-color: #00c000;
+}
+div.cc4:hover {
+    background-color: orange;
+}
+div.tablecontents a {
+    color:white;
+    text-decoration: none;
+}
+
+div.main {
+    overflow:scroll;
+  }
+div {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+/* typography */
+
+div.hugetext {
+    font-size:7.6vw;
+    line-height: 10vw;
+}
+
+div.headingtext {
+    font-size: 3.5vw;
+    line-height: 3.2vw;
+    margin:5.25px;
+    padding-top: 10px;
+    padding-bottom: 3.5px;
+}
+
+div.mediumtext {
+    font-size: 1.8vw;
+    line-height: 1.9vw;
+}
+div.bodytext {
+    font-size: 1.5vw;
+    line-height: 1.6vw;
+    margin: 7px;
+    padding: 7px;
+}
+
+
+div.sans {
+    font-family: 'Ouroboros';
+}
+div.subheading {
+    font-family: 'subheading';
+}
+
+div.body {
+    font-family: 'body';
+    font-weight:bold;
+}
+
+/* typography */
+
+div.textwhite {
+    color: white;
+}
+div.textyellow {
+    color: yellow;
+}
+div.textgreen {
+    color:#00ff00;
+}
+div.textblue {
+    color:blue;
+}
+div.textlblue {
+    color:cyan;
+}
+div.textpink {
+    color:violet;
+}
+div.textorange{
+    color: orange;
+}
+
+div.bgpink {
+    background-color: pink;
+}
+div.bgwhite {
+    background-color: white;
+}
+div.bgblack {
+    background-color: black;
+}
+div.bggreen {
+    background-color: #00c000;
+}
+div.bgpurple {
+    background-color: darkmagenta;
+}
+div.bgblue {
+    background-color: blue;
+}
+
+/* layout */
+div.width150 {
+    width:150%
+}
+div.width100 {
+    width: 100%;
+}
+div.width85 {
+    width: 85%;
+}
+div.width80 {
+    width: 80%;
+}
+
+div.width75 {
+    width: 75%;
+}
+
+div.width66 {
+    width: 66.66%;
+}
+
+div.width60{
+    width: 60%;
+}
+div.width56{
+    width: 56%;
+}
+div.width50{
+    width: 50%;
+}
+div.width45{
+    width: 45%;
+}
+div.width40 {
+    width: 40%;
+}
+
+div.width33 {
+    width: 33.33%;
+}
+
+div.width25 {
+    width: 25%;
+}
+div.width20 {
+    width: 20%;
+}
+
+div.dashedborder {
+    border: dashed darkgray;
+}
+div.textcenter {
+    text-align:center;
+}
+div.textleft {
+    text-align:left;
+}
+div.textright {
+    text-align:right;
+}
+
+/* Cover */
+div.title {
+    margin-top:4.5vw;
+    margin-left: 2vw;
+}
+div.eyes {
+    margin-top: 1vw;
+    margin-left: -29vw;
+}
+div.cover {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5vw;
+}
+/* Intro */
+div.introheroimage{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.introheading{
+    box-sizing: border-box;
+    padding-top: 5VW;
+    margin-top: -5vw;
+}
+div.introtext {
+    background: linear-gradient(transparent 50%, rgb(211, 115, 211));
+}
+
+/* Chapter 2 */
+div.c2heading{
+    box-sizing: border-box;
+    padding-top: 5VW;
+    margin-top:-2vw
+}
+div.c2text {
+    background: linear-gradient(transparent 50%, rgb(0, 225, 225));
+    margin-bottom: 2vw;
+}
+div.sonardiagram {
+    margin-bottom: 2vw;
+}
+
+/* Chapter 3 */
+div.c3heading {
+    box-sizing: border-box;
+    padding-top: 5VW;
+    margin-top:-2vw
+}
+div.chapter3body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+div.c3text {
+    background: linear-gradient(transparent 50%, #00ff00);
+    margin-bottom: 2vw;
+    height:25vw;
+    overflow:scroll;
+}
+div.c3text2 {
+    margin-bottom: 2vw;
+}
+div.c3textbody2 {
+    background: linear-gradient(transparent 50%, #00ff00);
+    height:25vw;
+    overflow:scroll;
+    align-items: center;
+}
+
+div.c3formula {
+    font-size: 1.4vw;
+    line-height: 1.5vw;
+    border-left: 2px solid #00ff00;
+    border-right: 2px solid #00ff00;
+    border-top: 2px solid #00ff00;
+    border-bottom: 2px solid #00ff00;
+    color: rgb(0, 135, 0);
+    margin-bottom: 2vw;
+}
+/* Chapter 4*/
+div.c4heading{
+    box-sizing: border-box;
+    padding-top: 5VW;
+    margin-top:-2vw
+}
+div.c4text {
+    background: linear-gradient(transparent 50%, orange);
+    margin-bottom: 2vw;
+}
+div.c4img {
+    margin-bottom: 2vw;
+}
+/* Others */
+div.bold{
+    font-weight:bold;
+}
+div.sonardiagram {
+    border: 4px ridge cyan;
+}
+div.bat1{
+    border: 4px ridge violet;
+}
+div.c3img {
+    border: 4px ridge #00d000;
+}
+div.c4img {
+    border: 4px ridge orange;
+}
+div.center {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.marginbottom {
+    margin-bottom: 50px;
+}
+
+
+
